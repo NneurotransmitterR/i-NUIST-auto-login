@@ -5,7 +5,7 @@ A simple Python script to login i-NUIST automatically
 2. Fill in **#YOUR ACCOUNT**, **#YOUR PASSWORD** and **#DOMAIN** in the script (if you don't know the domain in specific, find it in the post data).
 3. Fill in **#YOUR COOKIE** and **#YOUR USER AGENT** in the script. YOUR COOKIE can be found in the header, just copy it; use the browser's user agent).
 ## ps
-You may use **PyInstaller** to make a executive file (eg. *.exe).
+You may use **PyInstaller** to make an executive file (eg. *.exe).
 I believe you can now make a similar iOS shortcut by yourself! :D
 ## note
 Due to the way Windows handles open networks, the script may fail to function from time to time even if you are connected. 
