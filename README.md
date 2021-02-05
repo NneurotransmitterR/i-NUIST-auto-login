@@ -8,4 +8,4 @@ A simple Python script to login i-NUIST automatically
 You may use **PyInstaller** to make an executive file (eg. *.exe).
 I believe you can now make a similar iOS shortcut by yourself! :D
 ## note
-Due to the way Windows handles open networks, the script may fail to function from time to time even if you are connected. 
+Due to the way Windows handles open networks, the script may fail to function even if you are connected. 
