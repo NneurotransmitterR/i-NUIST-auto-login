@@ -5,12 +5,12 @@ import base64
 import requests
 
 # 在这里输入你的账号密码以及运营商。
-USER_ACCOUNT = '# YOUR_ACCOUNT'
+USER_ACCOUNT = '# YOUR ACCOUNT'
 USER_PASSWORD = '# YOUR PASSWORD'
 DOMAIN = '# YOUR PROVIDER'
 postaddr = "http://a.nuist.edu.cn/index.php/index/login"
 
-# 请求头
+# 构造请求头
 postheader = {
     'Accept': 'application/json, text/javascript, */*; q=0.01',
     'Accept-Encoding': 'gzip, deflate',
@@ -27,7 +27,7 @@ postheader = {
     'X-Requested-With': 'XMLHttpRequest',
 }
 
-# 发送postdata，其中password经由base64编码
+# 构造postdata，其中password经由base64编码
 postdata = {'domain': DOMAIN,
             'enablemacauth': '0',
             'password': base64.b64encode(USER_PASSWORD.encode()),
